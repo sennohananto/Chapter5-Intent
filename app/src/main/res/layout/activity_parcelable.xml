@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activitypenerima.ParcelableActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="PARCELABLE ACTIVITY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="18sp"
+        android:text="Nama :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvNama"
+        android:textSize="18sp"
+        android:text="-"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="18sp"
+        android:text="Usia :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvUsia"
+        android:textSize="18sp"
+        android:text="-"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
